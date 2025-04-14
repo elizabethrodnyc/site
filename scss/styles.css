@@ -11,8 +11,12 @@ li{
    font-family: "Montserrat", sans-serif !important;
 }
 
-.navbar-default .navbar-nav>li>a{
+p{
   font-weight:300 !important
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-weight:400 !important
 }
 
 a:focus, a:hover{
@@ -1594,7 +1598,7 @@ button.navbar-toggle collapsed {
   font-family: "Open Sans", sans-serif;
 font-weight: 400;
   color: white;
-
+font-size:15px;
 }
 
 
@@ -1628,7 +1632,7 @@ font-weight: 400;
       z-index: 89;
       padding: 0 20px;
       color: #fff;
-      font-size: 50px; }
+      font-size: 60px; }
 
 .contacts {
   padding-left: 0; }
@@ -3831,7 +3835,7 @@ table.table-bordered {
 }
 
 .navbar-nav {
-    margin: 19.5px -6%;
+    margin: 19.5px -5%;
 }
 .navbar .navbar-collapse {
 
@@ -3850,4 +3854,16 @@ table.table-bordered {
 
 .moveLeft {
   text-align:left;
+}
+
+
+@media (max-width:767px){
+  #name {
+    background: none;
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 60px;
+    margin-top: .2em;
+    margin-bottom: .3em !important;
+    padding-left: .5em !important;
+}
 }
