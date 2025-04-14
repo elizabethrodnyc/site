@@ -1,7 +1,5 @@
 
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");
-
 
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
 
@@ -3065,7 +3063,7 @@ table.table-bordered {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* ==== Blocks & Sections ==== */
   .block-text h2 {
-    font-size: 80px; }
+  }
   .block-text strong.subtitle {
     font-size: 18px; }
   .scroll-block {
@@ -3088,7 +3086,7 @@ table.table-bordered {
     padding: 120px 0; }
   .section-title h1,
   .section-title h2 {
-    font-size: 110px; }
+    ; }
   /* ==== Staff ==== */
   .staff .label {
     top: 38%; }
