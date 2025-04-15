@@ -12,7 +12,7 @@ li{
 }
 
 p{
-  font-weight:300 !important
+  font-weight:400 !important
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -3866,4 +3866,15 @@ table.table-bordered {
     margin-bottom: .3em !important;
     padding-left: .5em !important;
 }
+
+
+
+header .white {
+    background: black !important;
+  }
+
+header .black,
+header .black2 {
+        color: white !important;
+    }
 }
