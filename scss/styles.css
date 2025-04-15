@@ -11,7 +11,7 @@ li{
    font-family: "Montserrat", sans-serif !important;
 }
 
-p{
+p, li{
   font-weight:400 !important
 }
 
@@ -3867,7 +3867,9 @@ table.table-bordered {
     padding-left: .5em !important;
 }
 
-
+p, li{
+  font-weight:500 !important
+}
 
 header .white {
     background: black !important;
