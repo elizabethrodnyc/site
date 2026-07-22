@@ -3207,6 +3207,12 @@ table.table-bordered {
 /*** 7.3 - Mobile - Smartphone Portrait												 ***/
 /***************************************************************************************/
 @media only screen and (max-width: 767px) {
+
+#onlyfans {
+  scroll-margin-top: 40px; /* Adjust this value to your liking */
+}
+
+   
   /* === General === */
   body:before {
     content: '';
